@@ -1,0 +1,113 @@
+/* Media Queries */
+/* mobile  */
+@media only screen and (max-width: 767px) {
+    @media only screen and (max-width: 767px) {
+        .header-container {
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 10px;
+        }
+    
+        .logo img {
+            margin-bottom: 10px;
+        }
+    
+        nav ul {
+            flex-direction: column;
+            gap: 10px;
+        }
+    
+        .new-item::before {
+            left: auto;
+            top: auto;
+            bottom: 10px;
+            right: 10px;
+        }
+    
+        .search-container {
+            width: 100%;
+        }
+    
+        .search-container input[type="text"] {
+            width: 100%;
+        }
+    
+        .header-extras {
+            justify-content: space-between;
+            margin-right: 0;
+        }
+    
+        .sign-in-button {
+            margin-top: 10px;
+        }
+    }
+    
+    .hero-content h1 {
+        font-size: 2em; /* Adjust font size for smaller screens */
+    }
+
+    .hero-content p {
+        font-size: 1em; /* Adjust font size for smaller screens */
+    }
+
+    .get-started-btn {
+        padding: 10px 20px; /* Adjusted padding for smaller screens */
+    }
+
+}
+
+/* tab  */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    nav ul {
+        gap: 2rem; /* Adjusted gap for better spacing */
+    }
+
+    .search-container input[type="text"] {
+        width: 250px; /* Adjusted for better responsiveness */
+    }
+
+    .header-extras {
+        gap: 15px; /* Adjusted for better spacing */
+    }
+    .hero-content h1 {
+        font-size: 2.5em; /* Adjust font size for tablets */
+    }
+
+    .hero-content p {
+        font-size: 1.1em; /* Adjust font size for tablets */
+    }
+
+    .get-started-btn {
+        padding: 12px 28px; /* Adjusted padding for tablets */
+    }
+}
+
+/* bigger scree  */
+@media only screen and (min-width: 1024px) {
+    .header-container {
+        padding: 10px 50px;
+    }
+
+    nav ul {
+        gap: 3rem; /* Restore original gap for larger screens */
+    }
+
+    .search-container input[type="text"] {
+        width: 300px; /* Adjusted for larger screens */
+    }
+
+    .header-extras {
+        gap: 20px; /* Adjusted for larger screens */
+    }
+    .hero-content h1 {
+        font-size: 4em; /* Adjust font size for larger screens */
+    }
+
+    .hero-content p {
+        font-size: 1.3em; /* Adjust font size for larger screens */
+    }
+
+    .get-started-btn {
+        padding: 14px 32px; /* Adjusted padding for larger screens */
+    }
+}
